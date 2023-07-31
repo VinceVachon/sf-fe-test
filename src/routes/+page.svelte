@@ -5,8 +5,8 @@
 <h1>Welcome</h1>
 <p>
   Build a job board that displays the latest job postings fetched from the
-  Hacker News API, with each posting displaying the job <strong>title</strong>, <strong>poster</strong>, and <strong>date
-  posted</strong>.
+  Hacker News API, with each posting displaying the job <strong>title</strong>,
+  <strong>poster</strong>, and <strong>date posted</strong>.
 </p>
 
 <ul>
@@ -72,7 +72,9 @@
 <h3>Getting started</h3>
 <p>You can create your app in `src/routes/app/+page.svelte`</p>
 <p>
-  <a title="App page" target="_blank" rel="noopener noreferrer" href="/app">App page</a>
+  <a title="App page" target="_blank" rel="noopener noreferrer" href="/app"
+    >App page</a
+  >
 </p>
 
 <h3>Notes</h3>
@@ -84,3 +86,7 @@
   To improve the user experience and avoid overfetching, you may want to limit
   the number of job details fetched to the number of jobs visible on the page.
 </p>
+
+<h3>Ui example</h3>
+
+<img width="550" alt="job posting" src="/job-board-example.png" />
